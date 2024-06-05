@@ -18,6 +18,7 @@ function Filmes() {
                 filme => (
                     <div className="cardname" key={filme.id}>
                          <h1> {filme.title} </h1>
+                         <img src={`https://image.tmdb.org/t/p/w342/${filme.poster_path}`}></img>
                          <p>{filme.overview}</p>
                     </div>
                    
