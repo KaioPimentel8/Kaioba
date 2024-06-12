@@ -12,14 +12,13 @@ function Filmes() {
     return (  
         <>
         <h1>Filmes</h1>
-        <div className="listafilmes">
+        <div className="listafilmes flex flex-row">
         {
             filmes.map(
                 filme => (
                     <div className="cardname" key={filme.id}>
-                         <h1> {filme.title} </h1>
                          <img src={`https://image.tmdb.org/t/p/w342/${filme.poster_path}`}></img>
-                         <p>{filme.overview}</p>
+                         <h1> {filme.title} </h1>
                     </div>
                    
                 )
