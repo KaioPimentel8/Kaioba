@@ -56,7 +56,7 @@ function Filmes() {
                         </div>
                     ))
                     :
-                    <p>FILME NAO ENCONTRADO</p>
+                    <p>Seu filme não foi encontrado 😔</p>
                 }
                 </div>
             </div>
