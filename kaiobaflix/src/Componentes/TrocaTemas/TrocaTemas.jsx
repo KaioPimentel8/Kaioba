@@ -17,7 +17,7 @@ const TrocaTemas = () => {
 
   return (
     <div className="hidden sm:block mr-0">
-      <FaSun className='w-7 h-7 text-gray-100 cursor-pointer hidden dark:block' onClick={trocaTemas} />
+      <FaSun className='w-7 h-7 text-black cursor-pointer hidden dark:block' onClick={trocaTemas} />
       <FaMoon className='w-7 h-7 text-gray-100 cursor-pointer block dark:hidden' onClick={trocaTemas} />
     </div>
   )
