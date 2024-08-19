@@ -34,9 +34,9 @@ function Contato() {
 
 
     return (
-            <div className="container dark:bg-black">
+            <div className="container dark:bg-black h-dvh">
 
-                <div className="ml-96 mt-20">
+                <div className="ml-96">
                     <div className=" w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <form className="space-y-6 form" action="#" onSubmit={sendEmail}>
                             <h5 className="text-xl font-medium text-gray-900 dark:text-white">Nos mande mande uma mensagem</h5>

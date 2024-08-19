@@ -1,9 +1,9 @@
 function Sobre() {
     return (
         <>
-            <div className="flex flex-row space-x-96 dark:bg-black">
-                <div className="flex flex-col  w-72 dark:bg-black">
-                    <h1 className="text-4xl text-center dark:text-white">
+            <div className="flex flex-row space-x-96 dark:bg-black h-dvh">
+                <div className="flex flex-col  w-72 ">
+                    <h1 className="text-4xl text-center dark:text-white mt-5">
                         Sobre
                     </h1>
                     <p className="text-xl text-center dark:text-white">
@@ -11,7 +11,7 @@ function Sobre() {
                     </p>
                 </div>
 
-                <div className="flex flex-col  w-72 dark:bg-black">
+                <div className="flex flex-col  w-72 mt-5 ">
                     <h1 className="text-4xl text-center dark:text-white">
                         Quem somos nós?
                     </h1>
